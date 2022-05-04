@@ -120,6 +120,7 @@ img{
     width: 60vh;
     height: 50vh;
     margin-top: 1em;
+    border: 0.3em solid rgb(132, 49, 49);
 }
 
 
@@ -163,4 +164,65 @@ main p, h2, h4{
     padding-right: 1em;
     padding-top: 1em;
     text-align: justify;
+}
+
+/* Service */
+.Content{
+    display: flex;
+}
+.Content p{
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    text-align: justify;
+}
+.Main{
+    display: flex;
+}
+.Main img{
+    margin: 1em;
+    border: 0.3em solid rgb(132, 49, 49);
+    
+}
+
+.Main p{
+    text-align: justify;
+    padding: 1em;
+}
+
+@media(max-width: 668px){
+    body{
+        background: rgba(2, 2, 54, 0.131);
+        color: rgba(0, 0, 0, 0.752);    
+    }
+
+    .Content{
+        flex: none;
+        width: fit-content;
+        padding: 0;
+        margin: 0;
+    }
+    .Content p{
+        padding: 1em;
+        text-align: center;
+    }
+
+    .Main{
+        flex: none;
+        width: fit-content;
+        padding: 0;
+        margin: 0;
+    }
+    .Main p{
+        padding: 1em;
+        border: none;
+    }
+    img{
+        display: none;
+    }
+    
+h3{
+    align-items: center;
+    text-align: center;
+}
 }
