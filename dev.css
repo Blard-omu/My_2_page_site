@@ -151,13 +151,23 @@ h3{
 }
 
 /* */
-.hthree h3{
+
+.hthree{
     background-color:rgb(132, 49, 49);
+}
+
+.hthree h3{
+    /* background-color:rgb(132, 49, 49); */
     color: white;
     align-items: center;
     text-align: center;
     padding: 0.8rem;
 }
+
+.hthree{
+    font-size: 2em;
+}
+   
 
 main p, h2, h4{
     padding-left: 1em;
